@@ -13,55 +13,41 @@ Expense-Tracker is a project consisting of a Flutter mobile app for tracking exp
 ### Flutter Mobile App
 
 1. Clone this repository:
-
-git clone <repository_url>
-
-markdown
-Copy code
+```bash
+git clone https://github.com/Krutik30/Expense-Tracker-F.git
+```
 
 2. Navigate to the `flutter_app` directory:
-
+```bash
 cd flutter_app
-
-markdown
-Copy code
+```
 
 3. Install dependencies:
-
+```bash
 flutter pub get
-
-markdown
-Copy code
+```
 
 4. Run the app:
-
-flutter run
-
-markdown
-Copy code
+```bash
+flutter run -d 'your_phone_id(mine was krutik-phone)'
+```
 
 ### Dart Backend Server
 
 1. Navigate to the `backend_server` directory:
-
+```bash
 cd backend_server
-
-markdown
-Copy code
+```
 
 2. Install dependencies:
-
+```bash
 pub get
-
-markdown
-Copy code
+```
 
 3. Run the server:
-
+```bash
 dart server.dart
-
-vbnet
-Copy code
+```
 
 ## Additional Notes
 
